@@ -1,5 +1,6 @@
 package com.Primeiro_Proj;
 
+import com.Primeiro_Proj.Model.Adicao;
 import com.Primeiro_Proj.Model.Gato;
 import com.Primeiro_Proj.Model.Livro;
 
@@ -16,5 +17,11 @@ public class Primeiro_Proj {
 
         Livro livro = new Livro();
         System.out.println(livro);
+
+        Adicao adicao = new Adicao();
+        System.out.println(adicao);
+
+        System.out.println("Teste inicial de " + (adicao));
+
     }
 }
