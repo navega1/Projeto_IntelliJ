@@ -3,12 +3,16 @@ import java.util.Objects;
 
 public class Livro {
     private String nome;
-    private String npag;
+    private Integer nPag;
 
     public Livro() {
     }
+    public Livro(String nome, Integer nPag) {
+        this.nome = nome;
+        this.nPag = nPag;
+    }
 
-    public String getNome() {
+   public String getNome() {
         return nome;
     }
 
@@ -16,18 +20,12 @@ public class Livro {
         this.nome = nome;
     }
 
-    public String getNpag() {
-        return npag;
+    public Integer getnPag() {
+        return nPag;
     }
 
-    public void setNpag(String npag) {
-        this.npag = npag;
-    }
-
-    public Livro(String nome, String npag) {
-        this.nome = nome;
-        this.npag = npag;
-
+    public void setnPag(Integer nPag) {
+        this.nPag = nPag;
     }
 
     @Override
@@ -35,19 +33,19 @@ public class Livro {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Livro livro = (Livro) o;
-        return Objects.equals(nome, livro.nome) && Objects.equals(npag, livro.npag);
+        return Objects.equals(nome, livro.nome) && Objects.equals(nPag, livro.nPag);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nome, npag);
+        return Objects.hash(nome, nPag);
     }
 
     @Override
     public String toString() {
         return "Livro{" +
                 "nome='" + nome + '\'' +
-                ", npag='" + npag + '\'' +
+                ", nPag=" + nPag +
                 '}';
     }
 }

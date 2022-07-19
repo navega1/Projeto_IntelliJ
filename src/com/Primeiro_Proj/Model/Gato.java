@@ -1,14 +1,10 @@
 package com.Primeiro_Proj.Model;
 import java.util.Objects;
 
-/**
- * @author bnave
- */
 public class Gato {
     private String nome;
     private Integer idade;
     private String cor;
-
 
     public Gato() {
     }
