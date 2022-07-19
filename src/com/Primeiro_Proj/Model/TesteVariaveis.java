@@ -1,10 +1,13 @@
 package com.Primeiro_Proj.Model;
 
+
 import java.sql.SQLOutput;
+
 
 public class TesteVariaveis {
 
     public static void main(String[] args) {
+
 
         System.out.println("Prepos");
         prePos();
@@ -74,5 +77,9 @@ public class TesteVariaveis {
     }
 
     private static void precedencia() {
+        int a = 14;
+
+        System.out.println(a);
+
     }
 }
