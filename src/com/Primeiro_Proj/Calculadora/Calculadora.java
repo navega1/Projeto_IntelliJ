@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.Primeiro_Proj;
+package com.Primeiro_Proj.Calculadora;
 
 import java.util.Scanner;
 
