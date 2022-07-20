@@ -51,19 +51,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.TesteVariaveis">
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Primeiro_Proj.Calculadora" />
-      <module name="Primeiro_Proj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Primeiro_Proj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Primeiro_Proj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Primeiro_Proj.Primeiro_Proj" />
       <module name="Primeiro_Proj" />
@@ -103,11 +90,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.Primeiro_Proj.Calculadora.Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Primeiro_Proj.Calculadora.Calculadora" />
+      <module name="Primeiro_Proj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Primeiro_Proj.Calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TesteVariaveis" />
         <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Calculadora" />
+        <item itemvalue="Application.com.Primeiro_Proj.Calculadora.Calculadora" />
         <item itemvalue="Application.Primeiro_Proj" />
       </list>
     </recent_temporary>
